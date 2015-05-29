@@ -59,7 +59,6 @@ public class SQLiteDAOImpl implements Mp3DAO {
 	}
 
 	public void delete(Mp3 mp3) {
-		delete(mp3.getId());
 	}
 
 	public Mp3 getMp3ById(int mp3Id) {

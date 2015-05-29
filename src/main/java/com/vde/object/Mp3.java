@@ -2,23 +2,25 @@ package com.vde.object;
 
 public class Mp3 {
 
-	private int id;
-	private String author;
+	private int trackId;
+	private Artist author;
 	private String name;
+	
+	
 
-	public int getId() {
-		return id;
+	public int getTrackId() {
+		return trackId;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setTrackId(int trackId) {
+		this.trackId = trackId;
 	}
 
-	public String getAuthor() {
+	public Artist getAuthor() {
 		return author;
 	}
 
-	public void setAuthor(String author) {
+	public void setAuthor(Artist author) {
 		this.author = author;
 	}
 
@@ -32,7 +34,7 @@ public class Mp3 {
 
 	@Override
 	public String toString() {
-		return "Mp3 [id=" + id + ", author=" + author + ", name=" + name + "]";
+		return "Mp3 [id=" + trackId + ", author=" + author + ", name=" + name + "]";
 	}
 
 	
